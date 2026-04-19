@@ -1,6 +1,6 @@
-# 📊 Order Statistic Tree (Augmented BST) in C++
+# Order Statistic Tree (Augmented BST) in C++
 
-## 🚀 Overview
+## Overview
 
 This project implements an **Order Statistic Tree** using a Binary Search Tree (BST) augmented with subtree sizes.
 
@@ -11,7 +11,7 @@ It supports efficient order-based queries like:
 
 ---
 
-## 🧠 Key Idea
+## Key Idea
 
 Each node stores an extra field:
 
@@ -23,7 +23,7 @@ This allows order-statistic operations in **O(log n)** (average case).
 
 ---
 
-## ✨ Features
+## Features
 
 * Insert elements
 * Delete elements
@@ -33,7 +33,7 @@ This allows order-statistic operations in **O(log n)** (average case).
 
 ---
 
-## 🏗️ Data Structure
+## Data Structure
 
 Each node contains:
 
@@ -43,7 +43,7 @@ Each node contains:
 
 ---
 
-## ⚙️ Time Complexity
+## Time Complexity
 
 ### Average Case
 
@@ -58,7 +58,7 @@ Each node contains:
 
 ---
 
-## 🧪 Example
+## Example
 
 ### Input
 
@@ -76,7 +76,7 @@ Rank of 25: 5
 
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 ### Compile
 
@@ -92,7 +92,7 @@ g++ -std=c++17 main.cpp -o bst
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -102,7 +102,7 @@ g++ -std=c++17 main.cpp -o bst
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * Not self-balancing
 * Worst case O(n)
@@ -110,7 +110,7 @@ g++ -std=c++17 main.cpp -o bst
 
 ---
 
-## 🔥 Improvements
+## Improvements
 
 * Convert to AVL / Red-Black Tree
 * Handle duplicates
@@ -119,20 +119,10 @@ g++ -std=c++17 main.cpp -o bst
 
 ---
 
-## 📌 Applications
+## Applications
 
 * Median finding
 * Ranking systems
 * Competitive programming
-
----
-
-## 👨‍💻 Author
-
-Single-file DSA implementation demonstrating:
-
-* Tree augmentation
-* Order statistic queries
-* Clean C++ design
 
 ---
